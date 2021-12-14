@@ -61,7 +61,10 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "devhost": "gatsby develop --host 192.168.1.143",
+    "serve": "gatsby serve",
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    
     "format": "prettier --write 'src/**/*.js'",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
